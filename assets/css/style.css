@@ -1,13 +1,17 @@
+/* Default uses a border box, no padding, and no margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Everything in body has background color of white. */
 body {
     background-color: #d9dcd6;
 }
 
+/* In header class element: Pads content 20 pixels from header's border, prioritizes font based on browser prefences, sets background color to blue,
+ and sets color to white. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,19 @@ body {
     color: #ffffff;
 }
 
+/* For h1 headers within class header: sets display property to inline block, and font-size to 48 pixels. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* In class seo in header1 in class headers: sets color to white. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* In nav container in class header: Pads content 15 pixels from header's top border, creates 20 pixel space on right side of element, places element on right side,
+prioritizes font based on browser prefences, and sets font-size to 20 pixels. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,30 @@ body {
     font-size: 20px;
 }
 
+/* For unordered list in nav container in class header: removes list style type. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Unordered list in nav container in header class: sets display property to in-line block, and creates 25 pixel space on left side of element*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets anchor tags to color white, and removes text decoration lines. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets paragraph font-size to 16 pixels. */
 p {
     font-size: 16px;
 }
 
+/* In hero class element: sets element height to 800 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
+sets background image, sets background image to fill all space, and centers background image. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +73,27 @@ p {
     background-position: center;
 }
 
+/* In float-left class element: places element on left side, and creates 25 pixel space on right side of element. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* In float-right class element: places element on right side, and creates 25 pixel space on left side of element. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* In content class element: sets elements width to 75%, sets display property to in-line block, and creates 20 pixel space on left side of element. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* In benefits class element: creates 20 pixel space on right side of element, pads content 20 pixels from border, stays below float elements, places element on right side,
+sets element's width to 20%, sets element's height to 100%, prioritizes font based on browser preferences, and sets background color to french-blue. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +105,68 @@ p {
     background-color: #2589bd;
 }
 
+/* In benefit-lead class element: creates 32 pixel space below preceeding vertical element and sets element's text color to white. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* In benefit-brand class element: creates 32 pixel space below preceeding vertical element and sets element's text color to white. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* In benefit-cost class element: creates 32 pixel space below preceeding vertical element and sets element's text color to white. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* In h3 header within benefit-lead class element: creates 10 pixel space below preceeding vertical element and aligns text to the center. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* In h3 header within benefit-brand class element: creates 10 pixel space below preceeding vertical element and aligns text to the center. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* In h3 header within benefit-cost class element: creates 10 pixel space below preceeding vertical element and aligns text to the center. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Image within element class benefit-lead: sets display property to block, creates 10 pixel space to all four sides,
+ and sets images's max width to 150 pixels. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Image within element class benefit-brand: sets display property to block, creates 10 pixel space to all four sides,
+ and sets images's max width to 150 pixels. */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Image within element class benefit-cost: sets display property to block, creates 10 pixel space to all four sides,
+ and sets images's max width to 150 pixels. */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* In element with class .search-engine-optimization: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +176,8 @@ p {
     color: #ffffff;
 }
 
+/* In element with class online-reputation-management: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +187,8 @@ p {
     color: #ffffff;
 }
 
+/* In element with class social-media-marketing: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +198,40 @@ p {
     color: #ffffff;
 }
 
+/* In images contained within search-engine-optimization class element: sets max height to 200 pixels. */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* In images contained within online-reputation-management class element: sets max height to 200 pixels. */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* In images contained within social-media-marketing class element: sets max height to 200 pixels. */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* In h2 header within search engine optimization class element: creates 20 pixel space below preceeding vertical element, and 36 pixel font size. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* In h2 header within online reputation managment class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* In h2 header within social media marketing class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* In footers: Pads content 30 pixels from footer's border, stays below float elements, prioritizes font based on browser prefences, and aligns text to the center. */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +239,7 @@ p {
     text-align: center;
 }
 
+/* For h2 headers within footers: 20 pixel font size. */
 .footer h2 {
     font-size: 20px;
 }
